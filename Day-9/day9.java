@@ -42,7 +42,14 @@ class day9{
 			for(int i=4;i>=1;i--){
 
 				if(i%2==0){
+					char temp_1='A';
+
+				for(int j=1;j<=i;j++){
 					
+					System.out.print(temp_1+"\t");
+					temp_1++;
+
+					}
 				
 				}
 
@@ -72,6 +79,7 @@ class day9{
 
 		for(int i=4;i>=1;i--){
 
+		
 			char temp_1='A';
 
 				for(int j=1;j<=i;j++){
@@ -84,13 +92,6 @@ class day9{
 			System.out.println();
 
 			}
-
-
-
-		
-
-
-
 
 
 		}
